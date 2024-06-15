@@ -3,7 +3,8 @@ This Python-based tool allows users to securely encrypt and decrypt text using v
 
 # Installation
 
-Run in cmd:
+Run in terminal:
+
 pip install pybase64
 
 Password of encryption and decryption : 1234
