@@ -33,7 +33,6 @@ def decrypt():
     elif password !="1234":
         messagebox.showerror("encryption","Invalid Password")
 
-
 def encrypt():
     password=code.get()
 
