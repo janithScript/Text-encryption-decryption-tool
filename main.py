@@ -27,7 +27,6 @@ def decrypt():
 
         text2.insert(END,decrypt)
 
-
     elif password=="":
         messagebox.showerror("encryption","Input Password")
     elif password !="1234":
