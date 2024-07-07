@@ -12,6 +12,7 @@ def decrypt():
         screen2.geometry("400x200")
         screen2.configure(bg="#00bd56")
 
+        
         #icon
         image_icon=PhotoImage(file="keys.png")
         screen2.iconphoto(False,image_icon)
