@@ -29,6 +29,7 @@ def decrypt():
 
     elif password=="":
         messagebox.showerror("encryption","Input Password")
+        
     elif password !="1234":
         messagebox.showerror("encryption","Invalid Password")
 
