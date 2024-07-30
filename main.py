@@ -92,7 +92,6 @@ def main_screen():
     Entry(textvariable=code, width=19,bd=0,font=("arial",25),show="*").place(x=10,y=200)
 
 
-
     Button(text="ENCRYPT",height="2",width=23,bg="#ed3833",fg="black",bd=0,command=encrypt).place(x=10,y=250)
     Button(text="DECRYPT",height="2",width=23,bg="#00bd56",fg="black",bd=0,command=decrypt).place(x=200,y=250)
     Button(text="RESET", height="2",width=50,bg="#1089ff",fg="black",bd=0,command=reset).place(x=10,y=300)
